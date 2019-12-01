@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./value.component.css']
 })
 export class ValueComponent implements OnInit {
-  title="componente valor con http test";
+  title="componente valor con http test segundo commit";
   values:any="valor inicial";
   constructor(private http:HttpClient) { }
 
